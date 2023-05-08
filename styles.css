@@ -1,4 +1,4 @@
-p, header, ul, li, a,{
+p, header, ul, li, a {
     font-weight: thin;
   }
   
@@ -28,6 +28,10 @@ p, header, ul, li, a,{
   .nav-li:hover{
     background-color: #9f9f9f;
   }
+
+  .nav-li:active {
+    background-color: #6b6b6b;
+  }
   
   .nav-ul{
     list-style: none;
@@ -48,7 +52,8 @@ p, header, ul, li, a,{
   
   header{
     text-align: left;
-    font-weight: bold;
+    font-size: 24px;
+    padding: 10px;
   }
   code{
     background-color: #d0d0d0;

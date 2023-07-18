@@ -1,10 +1,58 @@
+
+  /*---------*\
+  |   TEXT    |
+  \*---------*/ 
+
 p, header, ul, li, a {
     font-weight: thin;
+    font-size: 16px;
   }
   
+
+  header{
+    text-align: left;
+    font-size: 24px;
+    padding: 10px;
+  }
+  code{
+    background-color: #e6e6e6;
+    color: #2778e9;
+    font-family: monospace;
+  }
+
+  .nav-header{
+    font-size: 22px;
+    padding: 6px;
+  }
+
+  .title {
+    color: rgb(219, 110, 0);
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .link {
+    transition-duration: 0.2s;
+    text-decoration: none;
+    padding: 3px;
+    font-size: 17px;
+  }
+
+  .link:hover {
+    background-color: #f2f2f2;
+  }
+
+  .link:active {
+    color: #2778e9;
+    background-color: #2778e954;
+  }
+
+  /*-------------------*\
+  |   PAGE STRUCTURE    |
+  \*-------------------*/ 
+
   #navbar {
-    border-right: solid;
-    border: 1px solid black;
     position: fixed;
     min-width: 300px;
     top: 0px;
@@ -12,6 +60,8 @@ p, header, ul, li, a {
     width: 330px;
     height: 100%;
     background-color: white;
+    z-index: 999;
+    user-select: none;
   }
   
   #main-doc, header{
@@ -39,7 +89,7 @@ p, header, ul, li, a {
     overflow-x: hidden;
   }
   
-    #navbar, a {
+    #navbar{
     display: block;
   }
   
@@ -49,28 +99,8 @@ p, header, ul, li, a {
     margin-bottom: 130px;
     padding: 20px;
   }
-  
-  header{
-    text-align: left;
-    font-size: 24px;
-    padding: 10px;
-  }
-  code{
-    background-color: #d0d0d0;
-    border-radius: 5px;
-  }
-  
-    @media screen {
-    body {
-      padding: 5px;;
-    }
-  }
-  .nav-header{
-    font-size: 22px;
-    padding: 6px;
-  }
+
   *{
     font-family: sans-serif;
     text-decoration: none;
   }
-  
